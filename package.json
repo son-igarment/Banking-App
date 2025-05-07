@@ -1,5 +1,5 @@
 {
-  "name": "jsm_banking",
+  "name": "banking_app_phamlengocson",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -37,8 +37,9 @@
     "zod": "^3.23.4"
   },
   "devDependencies": {
+    "@types/next": "^8.0.7",
     "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/react": "^18.3.21",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",

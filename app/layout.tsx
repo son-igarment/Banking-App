@@ -1,5 +1,6 @@
 export const dynamic = 'force-dynamic'
 
+import React from "react";
 import type { Metadata } from "next";
 import { Inter, IBM_Plex_Serif } from "next/font/google";
 import "./globals.css";
@@ -12,8 +13,8 @@ const ibmPlexSerif = IBM_Plex_Serif({
 })
 
 export const metadata: Metadata = {
-  title: "Horizon",
-  description: "Horizon is a modern banking platform for everyone.",
+  title: "Banking App - Phạm Lê Ngọc Sơn",
+  description: "A modern banking platform developed by Phạm Lê Ngọc Sơn.",
   icons: {
     icon: '/icons/logo.svg'
   }
@@ -21,9 +22,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body className={`${inter.variable} ${ibmPlexSerif.variable}`}>{children}</body>

@@ -27,7 +27,7 @@ const Home = async ({ searchParams: { id, page } }: SearchParamProps) => {
             type="greeting"
             title="Welcome"
             user={loggedIn?.firstName || 'Guest'}
-            subtext="Access and manage your account and transactions efficiently."
+            subtext="Access and manage your accounts on Phạm Lê Ngọc Sơn's Banking App efficiently."
           />
 
           <TotalBalanceBox 
